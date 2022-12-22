@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+.back2{
+  height: 100vh; 
+} 
+.back2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+}
+#quote-box{
+  display: flex;
+  flex-direction: column;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: black;
+  
+}
+.upper{
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.lower{ 
+  display: flex;
+}
+.low1{
+  flex: 3 1 auto;
+}
+.low2{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+#text{
+  flex: 1;
+  font-family: 'Oleo Script', cursive;
+  font-size: 2em;
+}
+#tweet-quote{
+  font-size: 24px;
+}
+#bible{
+  font-size:24px;
+  color: brown;
+  
+}
+
+
