@@ -6,7 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ;
 }
 #quote-box{
   display: flex;
@@ -15,6 +14,14 @@
   border-style: dotted;
   border-color: black;
   
+}
+@media (max-width: 536px) {
+  #text {
+    font-size: 4em;
+  }
+  #author{
+    font-size: 2em
+  }
 }
 .upper{
   flex: 1 0 auto;
